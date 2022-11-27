@@ -1,4 +1,4 @@
-image: harbor.shopeemobile.com/seller-center/multi-cli-tool
+image: node 14
 
 
 stages:
@@ -16,10 +16,9 @@ work:
   script:
     - npm run download
     - npm run analysis
-    - bash ./notification.sh
   artifacts:
     paths:
-      - report
+      - docs
 
 # 部署gitlab pages
 pages:
@@ -28,7 +27,8 @@ pages:
     - master
   script:
     - mkdir -p public
-    - mv report/* public
+    - mv docs/* public
+    - bash ./notification.sh
   dependencies:
     - work
   artifacts:
