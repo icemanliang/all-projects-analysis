@@ -1,1 +1,1 @@
-# all-projects-analysis
+# all-project-analysis
