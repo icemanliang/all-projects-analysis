@@ -15,13 +15,13 @@ docs目录下为分析后产生的代码分析报告及数据
 3. 执行分析
 
 本地执行:
-
+```javascript
 // 安装依赖
 $ npm install 
 // or 
 $ yarn install
 
-// 下载全项目代码仓库，codes目录下为全部子应用项目代码，包括有ts, tsx, vue三种代码文件
+// 下载全项目代码仓库，codes目录下为全部子应用项目代码
 $ npm run download 
 // or 
 $ yarn download
@@ -30,6 +30,7 @@ $ yarn download
 $ npm run analysis 
 // or 
 $ yarn analysis
+```
 
 下载代码参考:
 download.js
