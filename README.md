@@ -1,7 +1,7 @@
 # all-project-analysis
-用于测试&演示code-analysis-ts代码扫描分析工具在多团队微前端场景全应用依赖framework（基础应用框架）API的代码分析demo项目,使用github pages来部署报告
+演示code-analysis-ts代码扫描分析工具用于微前端全应用代码分析Demo,使用github pages来部署报告
 
-代码分析报告地址： https://liangxin199045.github.io/all-projects-analysis/
+全应用代码分析报告地址： https://liangxin199045.github.io/all-projects-analysis/
 
 目录介绍：
 
@@ -31,12 +31,14 @@ $ npm run analysis
 // or 
 $ yarn analysis
 ```
+全应用项目仓库信息：
+repo.js
 
-下载代码参考:
+下载代码脚本:
 download.js
 
-CI配置参考:
+CI配置:
 gitlab-ci.yml
 
-即时通信curl参考demo:
+即时通信消息通知脚本:
 notification.sh
