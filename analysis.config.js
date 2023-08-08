@@ -28,9 +28,7 @@ if(fs.existsSync(codePath)){
                 name: item,
                 path: [downloadDir + '/' + item + '/src'],
                 packageFile: downloadDir + '/' + item + '/package.json',
-                format: (str) => {
-                    return str.replace(downloadDir + '/' + item + '/','');
-                },
+                format: `${downloadDir}/${item}/`,
                 httpRepo: httpRepoDeal(item)
             }                  
         })
