@@ -1,7 +1,7 @@
 # all-project-analysis
 演示code-analysis-ts代码扫描分析工具用于微前端全应用代码分析Demo,使用github pages来部署报告
 
-全应用代码分析报告地址： https://liangxin199045.github.io/all-projects-analysis/
+全应用代码分析报告地址： https://icemanliang.github.io/all-projects-analysis/
 
 目录介绍：
 
